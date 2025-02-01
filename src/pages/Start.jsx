@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const API_URL = 'http://localhost:5000/api/quiz'; 
+const API_URL = 'https://quiz-app-1-2vgs.onrender.com/api/quiz'; 
 
 const StartPage = () => {
   const [quizData, setQuizData] = useState(null);

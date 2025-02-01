@@ -7,7 +7,7 @@ app.use(cors());
 app.get("/api/quiz", async (req, res) => {
   try {
     console.log("Fetching data from API...");
-    const response = await fetch("https://api.jsonserve.com/Uw5CrX"); // ✅ Works in Node.js 18+
+    const response = await fetch("https://api.jsonserve.com/Uw5CrX"); 
     if (!response.ok) {
       throw new Error(`API responded with status ${response.status}`);
     }

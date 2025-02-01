@@ -12,7 +12,7 @@ const Quiz = ({ onQuizComplete }) => {
   useEffect(() => {
     const fetchQuizData = async () => {
       try {
-        const response = await fetch('http://localhost:5000/api/quiz');
+        const response = await fetch('https://quiz-app-1-2vgs.onrender.com/api/quiz');
         const data = await response.json();
         setQuizData(data);
       } catch (error) {
