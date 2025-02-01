@@ -38,7 +38,7 @@ This is a modern, interactive quiz application that allows users to take quizzes
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/quiz-app.git
+git clone https://github.com/VipulSingh1407/quiz-app.git
 cd quiz-app
 ```
 
